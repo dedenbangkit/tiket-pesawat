@@ -1,0 +1,41 @@
+{
+  "name": "tiket-pesawat",
+  "version": "1.0.0",
+  "description": "scrape tiket pesawat dari tiket.com",
+  "main": "tiket.js",
+  "scripts": {
+    "test": "node_modules/eslint/bin/eslint.js tiket.js",
+    "fix": "node_modules/eslint/bin/eslint.js tiket.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedenbangkit/tiket-pesawat.git"
+  },
+  "keywords": [
+    "javascript",
+    "tiket",
+    "indonesia"
+  ],
+  "author": "Deden Bangkit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedenbangkit/tiket-pesawat/issues"
+  },
+  "homepage": "https://github.com/dedenbangkit/tiket-pesawat#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.2.1",
+    "eslint": "^4.19.1",
+    "js-search": "^1.4.2",
+    "moment": "^2.22.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prompt": "^1.0.0"
+  }
+}
